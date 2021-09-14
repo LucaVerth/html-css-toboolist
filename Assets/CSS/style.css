@@ -5,17 +5,19 @@
 }
 
 body{
-  background-color: lightgray;
+  background-color: #F6F8F9 ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   background-color: white;
 }
 
 .border-bottom{
-  border-bottom: 2px solid grey;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #F6F8F9;
 }
 
 .button-func{
@@ -27,7 +29,7 @@ body{
   border: 1px solid white;
   border-radius: 10%;
   font-size: 14px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .section{
@@ -37,7 +39,7 @@ body{
 
 /* marking and checks */
 .mark-true{
-  font-size: 10px;
+  font-size: 15px;
   padding: 3px;
   color: green;
   border: 1px solid green;
@@ -45,7 +47,7 @@ body{
 }
 
 .mark-false{
-  font-size: 10px;
+  font-size: 15px;
   padding: 3px;
   color: red;
   border: 1px solid red;
@@ -54,6 +56,7 @@ body{
 
 .list{
   padding-left: 10px;
+  font-size: 22px;
 }
 
 .points{
@@ -85,8 +88,7 @@ header{
 /* MAIN */
 .search-bar{
   margin-top: 50px;
-  height: 800px;
-  border: 1px solid white;
+  border: 1px solid #F6F8F9;
   border-radius: 1%;
 }
 
@@ -104,7 +106,38 @@ header{
 
 h2::before{
   content: ' \25BC ';
-  font-size: 15px;
+  font-size: 12px;
 }
 
+/* tags and colors */
+.tag{
+  border-radius: 40%/100%;
+  border: 1px solid white;
+  background:#fff;
+  padding: 4px 7px;
+  font-size: 10px;
+  background-color: #44ABEA;
+  color: white;
+  margin-left: 5px;
+  }
 
+.purple{
+  background-color: #9C72E4 ;
+}
+
+.greenlig{
+  background-color: #64C0A9;
+}
+
+.orange{
+  background-color: #F29E33;
+}
+
+.pink{
+  background-color: #D863A1;
+}
+
+.green{
+  background-color: #B0C926;
+}
+/* /tags and colors */
